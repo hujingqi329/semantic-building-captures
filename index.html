@@ -7,16 +7,108 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="site-preview">
+    <div class="site-preview is-about">
     <header class="site-header">
       <a class="site-title" href="#" aria-label="Site Demo 首页">Site Demo</a>
 
       <nav class="place-nav" aria-label="地点导航" data-button-group>
-        <button class="ui-button" type="button">About</button>
-        <button class="ui-button is-active" type="button">Xintiandi</button>
-        <button class="ui-button" type="button">Tianzifang</button>
+        <button class="ui-button is-active" type="button" data-page="about">About</button>
+        <button class="ui-button" type="button" data-page="home" data-place="xintiandi">Xintiandi</button>
+        <button class="ui-button" type="button" data-page="home" data-place="tianzifang">Tianzifang</button>
+        <button class="ui-button bugao-button" type="button" data-page="home" data-place="bugaoli">Bugao Li</button>
       </nav>
     </header>
+
+    <main class="about-page" aria-label="About Shikumen regeneration">
+      <section class="about-section city-background">
+        <h1>City Background</h1>
+        <div class="background-grid">
+          <div class="background-copy">
+            <p><strong><em>Shikumen</em></strong> emerged in Shanghai in the late 19th century as a hybrid housing typology combining Western terrace houses with traditional Chinese courtyard living. During the twentieth century, they became one of the city's dominant residential forms and once accommodated a large proportion of Shanghai's urban population. Today, only a fraction remain, many of which have undergone different approaches to urban regeneration.</p>
+            <div class="history-stages">
+              <figure><img src="about/City Background/Late 19th Century.png" alt="Late nineteenth-century Shikumen"><figcaption><em>Late 19th Century</em><span>Shikumen emerges<br>in Shanghai</span></figcaption></figure>
+              <figure><img src="about/City Background/1920-1940s.png" alt="Shikumen from the 1920s to 1940s"><figcaption><em>1920-1940s</em><span>Rapid urbanization,<br>neighborhoods expand</span></figcaption></figure>
+              <figure><img src="about/City Background/1950-1990s.png" alt="Shikumen from the 1950s to 1990s"><figcaption><em>1950-1990s</em><span>Dense communities,<br>everyday life in alleys</span></figcaption></figure>
+              <figure><img src="about/City Background/Today.png" alt="Shikumen today"><figcaption><em>Today</em><span>Urban regeneration,<br>heritage in transformation</span></figcaption></figure>
+            </div>
+          </div>
+          <img class="shikumen-map" src="about/City Background/Remaining Shikumen Sites.png" alt="Map of remaining Shikumen sites in Shanghai">
+        </div>
+      </section>
+
+      <section class="about-section regeneration-timeline">
+        <h1>Timeline of Urban Regeneration</h1>
+        <div class="approach-line">
+          <span class="approach-label"><em>Transformation<br>Approaches</em></span>
+          <svg viewBox="0 0 1281 100" aria-hidden="true">
+            <path d="M0 77 Q48 78 96 75 Q208 80 321 45 Q428 38 534 65 Q641 76 748 38 Q855 28 961 53 Q1068 67 1175 34 Q1228 24 1272 49"/>
+            <circle cx="96" cy="75" r="7"/>
+            <circle cx="321" cy="45" r="7"/>
+            <circle cx="534" cy="65" r="7"/>
+            <circle cx="748" cy="38" r="7"/>
+            <circle cx="961" cy="53" r="7"/>
+            <circle cx="1175" cy="34" r="7"/>
+            <path class="timeline-arrow" d="M1272 49 L1262 41 L1263 52 Z"/>
+          </svg>
+          <div class="approach-names"><span>Urban Renewal<br>Context</span><span>Top-down<br>Redevelopment</span><span>Bottom-up<br>Adaption</span><span>Living Heritage<br>Rehabilitation</span><span>Conservation-led<br>Renewal</span><span>Innovative Preservation<br>Practice</span></div>
+        </div>
+
+        <div class="timeline-cards">
+          <article><small>Late 20th Century (1990s)</small><h3>Urban Renewal Context</h3><p>Government+Developer</p><img src="about/Timeline of Urban Regeneration/Urban Renewal Context.png" alt="Urban renewal context"></article>
+          <article><small>1997-2001</small><h3>Xintiandi</h3><p>Government+Developer</p><img src="about/Timeline of Urban Regeneration/Xintiandi.png" alt="Xintiandi redevelopment"></article>
+          <article><small>Late 1990s-2000s</small><h3>Tianzifang</h3><p>Residents+Artists</p><img src="about/Timeline of Urban Regeneration/Tianzifang.png" alt="Tianzifang alley"></article>
+          <article><small>2007-2008 onward</small><h3>Bugao Li</h3><p>Residents</p><img src="about/Timeline of Urban Regeneration/Bugao Li.png" alt="Bugao Li alley"></article>
+          <article><small>2018-present</small><h3>Zhangyuan</h3><p>Government+Community</p><img src="about/Timeline of Urban Regeneration/Zhangyuan.png" alt="Zhangyuan Shikumen"></article>
+          <article><small>2025-Future</small><h3>Moving Heritage</h3><p>Community+Innovation</p><img src="about/Timeline of Urban Regeneration/Moving Heritage.png" alt="Moving heritage"></article>
+          <div class="timeline-detail-card">
+            <div class="detail-header">
+              <small>2007-2008 onward</small>
+              <h3>Bugao Li</h3>
+              <p>Residents</p>
+            </div>
+            <div class="detail-photo">
+              <img src="about/Timeline of Urban Regeneration/4.jpg" alt="Bugao Li present-day color photo">
+              <button class="detail-arrow is-prev" type="button" aria-label="Previous case">‹</button>
+              <button class="detail-arrow is-next" type="button" aria-label="Next case">›</button>
+            </div>
+            <p class="detail-description">Comprehensive rehabilitation of a living Shikumen community. Infrastructure and living conditions were improved while much of the historic fabric and residential function were retained.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section city-news">
+        <h1>City News</h1>
+        <div class="news-grid">
+          <video class="news-video" controls muted playsinline preload="metadata" poster="https://english.shanghai.gov.cn/cmsres/49/4963147421da4cd883a7da5f4f1b2c89/2f0950b2f7557ea4d6682d1619b8b233.png">
+            <source src="https://english.shanghai.gov.cn/cmsres/31/31a76c606171473bad561f2e9af3c34f/2f0950b2f7557ea4d6682d1619b8b233.mp4" type="video/mp4">
+          </video>
+          <div class="news-copy">
+            <h2>Shanghai's shikumen complex 'walks'<br>back to original site</h2>
+            <p>In 2025, a 7,500-ton Shikumen complex in Shanghai's Zhangyuan was temporarily relocated and later returned to its original site after underground construction. The project demonstrates that historic buildings can be physically preserved through modern technology, while raising a fundamental question:</p>
+            <blockquote>Is heritage conservation preserving the building itself, or the relationship between architecture, place, and everyday life?</blockquote>
+            <a href="https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250605/67d7437f7eac465a99f88f27b42e5ace.html" target="_blank" rel="noopener">https://english.shanghai.gov.cn/en-Latest-WhatsNew/20250605/67d7437f7eac465a99f88f27b42e5ace.html</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section worth-preserving">
+        <h1>What is Worth Preserving?</h1>
+        <p class="worth-intro">This project investigates a series of Shikumen redevelopment cases across different periods of Shanghai's urban transformation. By comparing changes in architectural form, everyday life, community relationships, and commercial activities</p>
+        <div class="question-grid">
+          <article>
+            <span class="question-number">01</span>
+            <p>When architectural facades remain but local<br>residents and everyday life disappear,<br><br>can this still be considered the preservation of<br>history?</p>
+            <img src="about/What%20is%20%20Worth%20Preserving%3F/01.png" alt="Shanghai historic and modern skyline">
+          </article>
+          <article>
+            <span class="question-number">02</span>
+            <p>When urban history is repackaged into an<br>experience designed for consumption,<br><br>what is actually being preserved:<br>history itself,<br>or a contemporary imagination of the past?</p>
+            <img src="about/What%20is%20%20Worth%20Preserving%3F/02.png" alt="Historic Shanghai alley">
+          </article>
+        </div>
+        <p class="closing-statement">Using Shikumen as a lens, the project explores how cities selectively preserve and reconstruct<br>space, and in doing so, continually redefine what is considered worthy of becoming heritage.</p>
+      </section>
+    </main>
 
     <div class="page-shell">
       <aside class="side-panel">
@@ -27,69 +119,73 @@
           <button class="ui-button vertical-button" type="button">Life traces</button>
         </nav>
 
-        <button class="upload-button" type="button">Upload</button>
+        <button class="upload-button" type="button" aria-label="Upload">+</button>
       </aside>
 
-      <main class="card-grid" aria-label="新天地建筑图片">
+      <main class="content-scroll">
+        <p class="place-description" aria-live="polite">Located in the former Taipingqiao Shikumen neighborhood, Xintiandi was redeveloped between the late 1990s and early 2000s as part of Shanghai's large-scale urban renewal strategy. Led by the government in collaboration with private developers, the project preserved the architectural appearance of Shikumen while replacing its original residential functions with commercial, cultural, and tourism programs. It represents a top-down redevelopment model, where historic architecture became a catalyst for urban branding and economic revitalization.</p>
+
+      <section class="card-grid" aria-label="新天地建筑图片">
         <article class="image-card is-openable">
           <img src="Architecture/0001.png" alt="石库门弄堂建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">001</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><button class="card-audio-button" type="button" aria-label="Play audio 001" aria-pressed="false"><img src="sound icon.svg" alt="" /></button></footer>
+          <footer><span class="card-info"><span class="card-number">001</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><button class="card-audio-button" type="button" aria-label="Play audio 001" aria-pressed="false"><img src="icon/sound icon.svg" alt="" /></button></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0002.png" alt="石库门街巷建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">002</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">002</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0003.png" alt="新天地街区语义分割图" />
-          <footer><span class="card-info"><span class="card-number">003</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">003</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0004.png" alt="新天地历史建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">004</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">004</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0005.png" alt="新天地街角建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">005</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">005</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0006.png" alt="石库门建筑入口语义分割图" />
-          <footer><span class="card-info"><span class="card-number">006</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">006</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0001.png" alt="石库门弄堂建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">007</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">007</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0002.png" alt="石库门街巷建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">008</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">008</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0003.png" alt="新天地街区语义分割图" />
-          <footer><span class="card-info"><span class="card-number">009</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">009</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0004.png" alt="新天地历史建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">010</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">010</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0005.png" alt="新天地街角建筑语义分割图" />
-          <footer><span class="card-info"><span class="card-number">011</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">011</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
 
         <article class="image-card">
           <img src="Architecture/0006.png" alt="石库门建筑入口语义分割图" />
-          <footer><span class="card-info"><span class="card-number">012</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="sound icon.svg" alt="Sound" /></footer>
+          <footer><span class="card-info"><span class="card-number">012</span><span class="card-divider" aria-hidden="true"></span><span class="card-location">Xintiandi, Lane123</span></span><img src="icon/sound icon.svg" alt="Sound" /></footer>
         </article>
+      </section>
       </main>
     </div>
 
@@ -148,8 +244,8 @@
             <p>31.219760, 121.476985</p>
             <span class="map-label">Map</span>
             <div class="map-wrap">
-              <img src="map001.png" alt="Map of Xintiandi Lane123" />
-              <img class="location-icon" src="location icon.svg" alt="Location" />
+              <img src="maps/map001.png" alt="Map of Xintiandi Lane123" />
+              <img class="location-icon" src="icon/location icon.svg" alt="Location" />
             </div>
           </section>
         </aside>
@@ -157,8 +253,8 @@
     </section>
     </div>
 
-    <audio id="audio-001" preload="metadata" src="audio/001.wav"></audio>
+    <audio id="audio-001" preload="metadata" src="Sound/001.wav"></audio>
 
-    <script src="script.js?v=7"></script>
+    <script src="script.js?v=9"></script>
   </body>
 </html>

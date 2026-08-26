@@ -1,2 +1,3 @@
-# semantic-building-captures
-Automatically captured transparent person PNGs from semantic segmentation.
+# Shanghai Shikumen Urban Regeneration
+
+Interactive website exploring Shikumen architecture and approaches to urban regeneration in Shanghai.
