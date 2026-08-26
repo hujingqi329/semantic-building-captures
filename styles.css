@@ -512,8 +512,7 @@ button {
 
 .news-copy a {
   position: absolute;
-  left: 70px;
-  right: auto;
+  left: 0;
   bottom: 0;
   display: block;
   width: 390px;
