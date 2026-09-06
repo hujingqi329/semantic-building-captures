@@ -1,0 +1,9 @@
+{
+  "model": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "host": "raspberrypi5",
+  "events": [
+    {"time": "2026-09-06T18:03:00", "status": "saved_unique_capture", "categories_percent": {"architecture": 41.7, "commerce": 55.4}},
+    {"time": "2026-09-06T18:05:00", "status": "saved_unique_capture", "categories_percent": {"architecture": 38.2, "life_traces": 3.1}}
+  ],
+  "saved_unique_count": 2
+}

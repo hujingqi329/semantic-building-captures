@@ -1096,3 +1096,7 @@ button {
   width: 16px;
   height: 25px;
 }
+
+.image-card > img.is-missing {
+  visibility: hidden;
+}

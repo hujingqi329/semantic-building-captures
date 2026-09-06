@@ -14,7 +14,8 @@ document.querySelector(".upload-button")?.addEventListener("click", (event) => {
   event.currentTarget.classList.toggle("is-active");
 });
 
-const imageSets = {
+// Reference (hand-picked demo) images, and field-capture images for Bugao Li.
+const referenceSets = {
   all: Array.from({ length: 6 }, (_, index) =>
     `All/${String(index + 1).padStart(4, "0")}.jpg`
   ),
@@ -22,21 +23,61 @@ const imageSets = {
     `Architecture/${String(index + 1).padStart(4, "0")}.png`
   ),
 };
-
+const captureSets = {
+  all: [],
+  architecture: [],
+  commerce: [],
+  life_traces: [],
+};
+let imageSets = referenceSets;
 let currentImageSet = "architecture";
+let currentPlace = "xintiandi";
+
+// The number of captures comes from the log written by the field device;
+// until it loads (or when it is absent) the reference images stay in use.
+fetch("capture_log.json", { cache: "no-store" })
+  .then((response) => (response.ok ? response.json() : null))
+  .then((manifest) => {
+    const count = (manifest?.events ?? []).filter(
+      (event) => event.status === "saved_unique_capture"
+    ).length;
+    if (!count) return;
+    captureSets.all = Array.from({ length: count }, (_, index) =>
+      `captures/origin/${String(index + 1).padStart(4, "0")}.jpg`
+    );
+    for (const category of ["architecture", "commerce", "life_traces"]) {
+      captureSets[category] = Array.from({ length: count }, (_, index) =>
+        `captures/${category}/${String(index + 1).padStart(4, "0")}.png`
+      );
+    }
+    if (currentPlace === "bugaoli") {
+      imageSets = captureSets;
+      showImageSet(currentImageSet);
+    }
+  })
+  .catch(() => {});
 
 function showImageSet(setName) {
   const paths = imageSets[setName];
   if (!paths) return;
 
   document.querySelectorAll(".image-card > img").forEach((image, index) => {
+    image.classList.remove("is-missing");
+    if (!paths.length) {
+      image.removeAttribute("src");
+      image.classList.add("is-missing");
+      return;
+    }
     image.src = paths[index % paths.length];
   });
 
   currentImageSet = setName;
+  document.querySelectorAll(".category-nav [data-image-set]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.imageSet === setName);
+  });
   document.querySelector(".image-card")?.classList.toggle(
     "is-openable",
-    setName === "all" || setName === "architecture"
+    imageSets === captureSets || setName === "all" || setName === "architecture"
   );
 }
 
@@ -62,6 +103,11 @@ document.querySelector(".place-nav")?.addEventListener("click", (event) => {
   const button = event.target.closest("[data-place]");
   if (!button) return;
 
+  currentPlace = button.dataset.place;
+  imageSets = currentPlace === "bugaoli" ? captureSets : referenceSets;
+  if (!(currentImageSet in imageSets)) currentImageSet = "architecture";
+  showImageSet(currentImageSet);
+
   document.querySelector(".place-description").textContent =
     placeDescriptions[button.dataset.place];
 });
@@ -76,6 +122,17 @@ newsVideo?.addEventListener("mouseenter", () => {
 imageSets.all.forEach((path) => {
   const image = new Image();
   image.src = path;
+});
+
+// A category cutout may be absent for a given capture (too few pixels);
+// dim that card instead of showing a broken image.
+document.querySelectorAll(".image-card > img").forEach((image) => {
+  image.addEventListener("error", () => {
+    image.classList.add("is-missing");
+  });
+  image.addEventListener("load", () => {
+    image.classList.remove("is-missing");
+  });
 });
 
 const detailOverlay = document.querySelector(".detail-overlay");
