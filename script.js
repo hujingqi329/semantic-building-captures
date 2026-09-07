@@ -63,12 +63,13 @@ function showImageSet(setName) {
 
   document.querySelectorAll(".image-card > img").forEach((image, index) => {
     image.classList.remove("is-missing");
-    if (!paths.length) {
+    // One capture per card - no cycling; cards beyond the data stay empty.
+    if (index >= paths.length) {
       image.removeAttribute("src");
       image.classList.add("is-missing");
       return;
     }
-    image.src = paths[index % paths.length];
+    image.src = paths[index];
   });
 
   currentImageSet = setName;
