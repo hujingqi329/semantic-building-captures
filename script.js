@@ -61,6 +61,8 @@ function showImageSet(setName) {
   const paths = imageSets[setName];
   if (!paths) return;
 
+  document.querySelector("#audio-001")?.pause();
+
   document.querySelectorAll(".image-card > img").forEach((image, index) => {
     image.classList.remove("is-missing");
     // One capture per card - no cycling; cards beyond the data stay empty.
@@ -294,34 +296,67 @@ if (timelineCards && timelineTrigger) {
 }
 
 const audio001 = document.querySelector("#audio-001");
-const cardAudioButton = document.querySelector(".card-audio-button");
+const cardAudioButtons = Array.from(document.querySelectorAll(".card-audio-button"));
 const detailPlayButton = document.querySelector(".play-button");
+let speakingCardButton = null;
 
 function syncAudioButtons() {
   const isPlaying = !audio001.paused && !audio001.ended;
-  cardAudioButton.classList.toggle("is-playing", isPlaying);
-  cardAudioButton.setAttribute("aria-pressed", String(isPlaying));
-  cardAudioButton.setAttribute("aria-label", `${isPlaying ? "Pause" : "Play"} audio 001`);
+  cardAudioButtons.forEach((button) => {
+    const isThis = isPlaying && button === speakingCardButton;
+    button.classList.toggle("is-playing", isThis);
+    button.setAttribute("aria-pressed", String(isThis));
+    button.setAttribute("aria-label", isThis ? "Pause capture audio" : "Play capture audio");
+  });
   detailPlayButton.classList.toggle("is-playing", isPlaying);
   detailPlayButton.textContent = isPlaying ? "Ⅱ" : "▶";
-  detailPlayButton.setAttribute("aria-label", `${isPlaying ? "Pause" : "Play"} audio 001`);
 }
 
-function toggleAudio001() {
+cardAudioButtons.forEach((button, index) => {
+  button.addEventListener("click", (event) => {
+    event.stopPropagation();
+
+    if (imageSets === captureSets) {
+      // Field mode: each card plays its own 8-second capture recording.
+      if (speakingCardButton === button && !audio001.paused) {
+        audio001.pause();
+        return;
+      }
+      audio001.pause();
+      const source = `captures/audio/${String(index + 1).padStart(4, "0")}.wav`;
+      const absolute = new URL(source, window.location.href).href;
+      if (audio001.src !== absolute) {
+        audio001.src = source;
+        audio001.currentTime = 0;
+      }
+      speakingCardButton = button;
+      audio001.play().catch(() => {});
+      return;
+    }
+
+    // Reference mode keeps the original demo sound (Sound/001.wav).
+    if (speakingCardButton !== null) {
+      audio001.src = "Sound/001.wav";
+      audio001.currentTime = 0;
+      speakingCardButton = null;
+    }
+    if (audio001.paused || audio001.ended) {
+      if (audio001.ended) audio001.currentTime = 0;
+      audio001.play().catch(() => syncAudioButtons());
+    } else {
+      audio001.pause();
+    }
+  });
+});
+
+detailPlayButton.addEventListener("click", () => {
   if (audio001.paused || audio001.ended) {
     if (audio001.ended) audio001.currentTime = 0;
     audio001.play().catch(() => syncAudioButtons());
   } else {
     audio001.pause();
   }
-}
-
-cardAudioButton.addEventListener("click", (event) => {
-  event.stopPropagation();
-  toggleAudio001();
 });
-
-detailPlayButton.addEventListener("click", toggleAudio001);
 audio001.addEventListener("play", syncAudioButtons);
 audio001.addEventListener("pause", syncAudioButtons);
 audio001.addEventListener("ended", syncAudioButtons);
