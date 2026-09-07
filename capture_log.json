@@ -1,9 +1,264 @@
 {
   "model": "nvidia/segformer-b0-finetuned-ade-512-512",
   "host": "raspberrypi5",
+  "camera_index": 0,
+  "capture_interval_seconds": 2.0,
+  "audio_enabled": true,
+  "audio_seconds_per_unique_detection": 8.0,
+  "categories": {
+    "architecture": [
+      "awning",
+      "bannister",
+      "bridge",
+      "building",
+      "column",
+      "door",
+      "fence",
+      "house",
+      "path",
+      "pole",
+      "railing",
+      "road",
+      "sidewalk",
+      "skyscraper",
+      "stairs",
+      "stairway",
+      "step",
+      "streetlight",
+      "tower",
+      "wall",
+      "windowpane"
+    ],
+    "commerce": [
+      "bar",
+      "booth",
+      "bulletin board",
+      "counter",
+      "person",
+      "poster",
+      "signboard",
+      "trade name"
+    ],
+    "life_traces": [
+      "apparel",
+      "armchair",
+      "ashcan",
+      "bag",
+      "bench",
+      "bicycle",
+      "blanket",
+      "book",
+      "bottle",
+      "box",
+      "bus",
+      "cabinetry",
+      "car",
+      "chair",
+      "chest of drawers",
+      "clock",
+      "cupboard",
+      "desk",
+      "flower",
+      "grass",
+      "palm",
+      "plant",
+      "plate",
+      "pot",
+      "seat",
+      "sofa",
+      "table",
+      "towel",
+      "tray",
+      "tree",
+      "truck",
+      "van",
+      "vase"
+    ]
+  },
+  "deduplication": {
+    "orb_duplicate_threshold": 0.3,
+    "dhash_duplicate_threshold": 0.92
+  },
   "events": [
-    {"time": "2026-09-06T18:03:00", "status": "saved_unique_capture", "categories_percent": {"architecture": 41.7, "commerce": 55.4}},
-    {"time": "2026-09-06T18:05:00", "status": "saved_unique_capture", "categories_percent": {"architecture": 38.2, "life_traces": 3.1}}
+    {
+      "time": "2026-09-07T11:35:53",
+      "seconds_from_start": 2.0,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0001.jpg",
+      "categories_percent": {
+        "architecture": 91.07
+      },
+      "preview": "outputs/rehearsal1/preview/0001_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0001.wav"
+    },
+    {
+      "time": "2026-09-07T11:36:11",
+      "seconds_from_start": 20.38,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0002.jpg",
+      "categories_percent": {
+        "architecture": 91.73
+      },
+      "preview": "outputs/rehearsal1/preview/0002_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0002.wav"
+    },
+    {
+      "time": "2026-09-07T11:36:30",
+      "seconds_from_start": 38.97,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0003.jpg",
+      "categories_percent": {
+        "architecture": 92.45
+      },
+      "preview": "outputs/rehearsal1/preview/0003_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0003.wav"
+    },
+    {
+      "time": "2026-09-07T11:36:48",
+      "seconds_from_start": 57.47,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0004.jpg",
+      "categories_percent": {
+        "architecture": 90.44
+      },
+      "preview": "outputs/rehearsal1/preview/0004_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0004.wav"
+    },
+    {
+      "time": "2026-09-07T11:37:07",
+      "seconds_from_start": 76.06,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0005.jpg",
+      "categories_percent": {
+        "architecture": 87.14
+      },
+      "preview": "outputs/rehearsal1/preview/0005_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0005.wav"
+    },
+    {
+      "time": "2026-09-07T11:37:26",
+      "seconds_from_start": 94.59,
+      "person_pixel_percent": 37.597,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0006.jpg",
+      "categories_percent": {
+        "architecture": 60.97,
+        "commerce": 37.6
+      },
+      "preview": "outputs/rehearsal1/preview/0006_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0006.wav"
+    },
+    {
+      "time": "2026-09-07T11:37:44",
+      "seconds_from_start": 113.47,
+      "person_pixel_percent": 22.553,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0007.jpg",
+      "categories_percent": {
+        "architecture": 55.37,
+        "commerce": 22.55,
+        "life_traces": 14.11
+      },
+      "preview": "outputs/rehearsal1/preview/0007_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0007.wav"
+    },
+    {
+      "time": "2026-09-07T11:38:03",
+      "seconds_from_start": 132.22,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0008.jpg",
+      "categories_percent": {
+        "architecture": 92.62,
+        "life_traces": 3.94
+      },
+      "preview": "outputs/rehearsal1/preview/0008_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0008.wav"
+    },
+    {
+      "time": "2026-09-07T11:38:22",
+      "seconds_from_start": 150.94,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0009.jpg",
+      "categories_percent": {
+        "architecture": 78.72,
+        "life_traces": 14.25
+      },
+      "preview": "outputs/rehearsal1/preview/0009_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0009.wav"
+    },
+    {
+      "time": "2026-09-07T11:38:41",
+      "seconds_from_start": 169.73,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0010.jpg",
+      "categories_percent": {
+        "architecture": 82.18,
+        "life_traces": 17.32
+      },
+      "preview": "outputs/rehearsal1/preview/0010_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0010.wav"
+    },
+    {
+      "time": "2026-09-07T11:39:00",
+      "seconds_from_start": 188.61,
+      "person_pixel_percent": 25.85,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0011.jpg",
+      "categories_percent": {
+        "architecture": 64.25,
+        "commerce": 25.85,
+        "life_traces": 3.33
+      },
+      "preview": "outputs/rehearsal1/preview/0011_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0011.wav"
+    },
+    {
+      "time": "2026-09-07T11:39:18",
+      "seconds_from_start": 207.43,
+      "person_pixel_percent": 0.0,
+      "max_orb_similarity": 0.0,
+      "max_dhash_similarity": 0.0,
+      "status": "saved_unique_capture",
+      "origin": "outputs/rehearsal1/origin/0012.jpg",
+      "categories_percent": {
+        "architecture": 76.66,
+        "commerce": 2.26,
+        "life_traces": 18.3
+      },
+      "preview": "outputs/rehearsal1/preview/0012_preview.jpg",
+      "audio": "outputs/rehearsal1/audio/0012.wav"
+    }
   ],
-  "saved_unique_count": 2
+  "saved_unique_count": 12,
+  "finished_at": "2026-09-07T11:39:27"
 }
