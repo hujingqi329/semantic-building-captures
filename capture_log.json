@@ -1,503 +1,194 @@
 {
   "model": "nvidia/segformer-b0-finetuned-ade-512-512",
   "host": "raspberrypi5",
-  "camera_index": 0,
-  "capture_interval_seconds": 2.0,
-  "audio_enabled": true,
-  "audio_seconds_per_unique_detection": 8.0,
-  "categories": {
-    "architecture": [
-      "awning",
-      "bannister",
-      "bridge",
-      "building",
-      "column",
-      "door",
-      "fence",
-      "house",
-      "path",
-      "pole",
-      "railing",
-      "road",
-      "sidewalk",
-      "skyscraper",
-      "stairs",
-      "stairway",
-      "step",
-      "streetlight",
-      "tower",
-      "wall",
-      "windowpane"
-    ],
-    "commerce": [
-      "bar",
-      "booth",
-      "bulletin board",
-      "counter",
-      "person",
-      "poster",
-      "signboard",
-      "trade name"
-    ],
-    "life_traces": [
-      "apparel",
-      "armchair",
-      "ashcan",
-      "bag",
-      "bench",
-      "bicycle",
-      "blanket",
-      "book",
-      "bottle",
-      "box",
-      "bus",
-      "cabinetry",
-      "car",
-      "chair",
-      "chest of drawers",
-      "clock",
-      "cupboard",
-      "desk",
-      "flower",
-      "grass",
-      "palm",
-      "plant",
-      "plate",
-      "pot",
-      "seat",
-      "sofa",
-      "table",
-      "towel",
-      "tray",
-      "tree",
-      "truck",
-      "van",
-      "vase"
-    ]
-  },
-  "deduplication": {
-    "orb_duplicate_threshold": 0.3,
-    "dhash_duplicate_threshold": 0.92
-  },
   "events": [
-    {
-      "time": "2026-09-07T11:35:53",
-      "seconds_from_start": 2.0,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0001.jpg",
-      "categories_percent": {
-        "architecture": 91.07
-      },
-      "preview": "outputs/rehearsal1/preview/0001_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0001.wav"
-    },
-    {
-      "time": "2026-09-07T11:36:11",
-      "seconds_from_start": 20.38,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0002.jpg",
-      "categories_percent": {
-        "architecture": 91.73
-      },
-      "preview": "outputs/rehearsal1/preview/0002_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0002.wav"
-    },
-    {
-      "time": "2026-09-07T11:36:30",
-      "seconds_from_start": 38.97,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0003.jpg",
-      "categories_percent": {
-        "architecture": 92.45
-      },
-      "preview": "outputs/rehearsal1/preview/0003_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0003.wav"
-    },
-    {
-      "time": "2026-09-07T11:36:48",
-      "seconds_from_start": 57.47,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0004.jpg",
-      "categories_percent": {
-        "architecture": 90.44
-      },
-      "preview": "outputs/rehearsal1/preview/0004_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0004.wav"
-    },
-    {
-      "time": "2026-09-07T11:37:07",
-      "seconds_from_start": 76.06,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0005.jpg",
-      "categories_percent": {
-        "architecture": 87.14
-      },
-      "preview": "outputs/rehearsal1/preview/0005_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0005.wav"
-    },
-    {
-      "time": "2026-09-07T11:37:26",
-      "seconds_from_start": 94.59,
-      "person_pixel_percent": 37.597,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0006.jpg",
-      "categories_percent": {
-        "architecture": 60.97,
-        "commerce": 37.6
-      },
-      "preview": "outputs/rehearsal1/preview/0006_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0006.wav"
-    },
-    {
-      "time": "2026-09-07T11:37:44",
-      "seconds_from_start": 113.47,
-      "person_pixel_percent": 22.553,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0007.jpg",
-      "categories_percent": {
-        "architecture": 55.37,
-        "commerce": 22.55,
-        "life_traces": 14.11
-      },
-      "preview": "outputs/rehearsal1/preview/0007_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0007.wav"
-    },
-    {
-      "time": "2026-09-07T11:38:03",
-      "seconds_from_start": 132.22,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0008.jpg",
-      "categories_percent": {
-        "architecture": 92.62,
-        "life_traces": 3.94
-      },
-      "preview": "outputs/rehearsal1/preview/0008_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0008.wav"
-    },
-    {
-      "time": "2026-09-07T11:38:22",
-      "seconds_from_start": 150.94,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0009.jpg",
-      "categories_percent": {
-        "architecture": 78.72,
-        "life_traces": 14.25
-      },
-      "preview": "outputs/rehearsal1/preview/0009_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0009.wav"
-    },
-    {
-      "time": "2026-09-07T11:38:41",
-      "seconds_from_start": 169.73,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0010.jpg",
-      "categories_percent": {
-        "architecture": 82.18,
-        "life_traces": 17.32
-      },
-      "preview": "outputs/rehearsal1/preview/0010_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0010.wav"
-    },
-    {
-      "time": "2026-09-07T11:39:00",
-      "seconds_from_start": 188.61,
-      "person_pixel_percent": 25.85,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0011.jpg",
-      "categories_percent": {
-        "architecture": 64.25,
-        "commerce": 25.85,
-        "life_traces": 3.33
-      },
-      "preview": "outputs/rehearsal1/preview/0011_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0011.wav"
-    },
-    {
-      "time": "2026-09-07T11:39:18",
-      "seconds_from_start": 207.43,
-      "person_pixel_percent": 0.0,
-      "max_orb_similarity": 0.0,
-      "max_dhash_similarity": 0.0,
-      "status": "saved_unique_capture",
-      "origin": "outputs/rehearsal1/origin/0012.jpg",
-      "categories_percent": {
-        "architecture": 76.66,
-        "commerce": 2.26,
-        "life_traces": 18.3
-      },
-      "preview": "outputs/rehearsal1/preview/0012_preview.jpg",
-      "audio": "outputs/rehearsal1/audio/0012.wav"
-    },
-    {
-      "time": "2026-10-25T23:50:51",
-      "status": "saved_unique_capture",
-      "session_number": "0001",
-      "trigger": "shutter",
-      "gps": null,
-      "light_lux": 135.83333333333334,
-      "categories_percent": {
-        "architecture": 63.41,
-        "commerce": 1.1,
-        "life_traces": 29.65
-      },
-      "origin": "captures/origin/0013.jpg",
-      "audio": "captures/audio/0013.wav",
-      "ai_description": "A person in a maroon jacket is seen in a modern interior with glass panels and metal framing; no Shikumen architectural fabric or commercial interventions are visible.",
-      "urban_selection": {
-        "preserved": 0,
-        "removed": 0,
-        "reconstructed": 0
-      }
-    },
-    {
-      "time": "2026-10-25T23:51:11",
-      "status": "saved_unique_capture",
-      "session_number": "0002",
-      "trigger": "shutter",
-      "gps": null,
-      "light_lux": 142.5,
-      "categories_percent": {
-        "architecture": 71.15,
-        "commerce": 1.8
-      },
-      "origin": "captures/origin/0014.jpg",
-      "audio": "captures/audio/0014.wav",
-      "ai_description": "An indoor exhibition hall shows a tall vertical digital screen labeled \"EXHIBITION\"/\"QIDONG MUSEUM\" mounted above a white directory board with a large \"3\", within plain modern white walls and dark ceilings. No Shikumen brickwork, stone gateways, or alley fabric is visible in the frame.",
-      "urban_selection": {
-        "preserved": 0,
-        "removed": 2,
-        "reconstructed": 0
-      }
-    },
     {
       "time": "2026-10-26T00:02:38",
       "status": "saved_unique_capture",
-      "session_number": "0001",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 145.0,
-      "categories_percent": {
-        "architecture": 81.92,
-        "commerce": 4.07,
-        "life_traces": 6.03
-      },
-      "origin": "captures/origin/0015.jpg",
-      "audio": "captures/audio/0015.wav",
       "ai_description": "A foreground green jacket partly obscures a view of an interior with a pale staircase, dark ceiling panel, exposed track lighting, and a small seating or display area beneath the stairs. The visible surfaces are largely plain and modern, with no clear Shikumen brickwork or stone gateway features in frame.",
       "urban_selection": {
         "preserved": 1,
         "removed": 3,
         "reconstructed": 1
-      }
+      },
+      "categories_percent": {
+        "architecture": 81.92,
+        "commerce": 4.07,
+        "life_traces": 6.03
+      },
+      "origin": "captures/origin/0001.jpg",
+      "audio": "captures/audio/0001.wav"
     },
     {
       "time": "2026-10-26T00:03:13",
       "status": "saved_unique_capture",
-      "session_number": "0004",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 130.0,
-      "categories_percent": {
-        "architecture": 76.24
-      },
-      "origin": "captures/origin/0016.jpg",
-      "audio": "captures/audio/0016.wav",
       "ai_description": "An indoor view of a plain white wall and dark floor with a freestanding black digital screen displaying an exhibition open-call poster for an ICI Open Museum event, beside a low white signboard marked with the numeral 3. No Shikumen brickwork, stone gateways, alley fabric, or historic architectural details are visible in the frame.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 76.24
+      },
+      "origin": "captures/origin/0002.jpg",
+      "audio": "captures/audio/0002.wav"
     },
     {
       "time": "2026-10-26T00:03:39",
       "status": "saved_unique_capture",
-      "session_number": "0005",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 141.66666666666669,
-      "categories_percent": {
-        "architecture": 92.97,
-        "commerce": 0.82
-      },
-      "origin": "captures/origin/0017.jpg",
-      "audio": "captures/audio/0017.wav",
       "ai_description": "An interior view shows dark paneled walls with string lights, shelving, furniture, and scattered objects, with water bottles in the foreground. No historic Shikumen fabric or exterior architectural details are visible.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 92.97,
+        "commerce": 0.82
+      },
+      "origin": "captures/origin/0003.jpg",
+      "audio": "captures/audio/0003.wav"
     },
     {
       "time": "2026-10-26T00:04:10",
       "status": "saved_unique_capture",
-      "session_number": "0006",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 143.33333333333334,
-      "categories_percent": {
-        "architecture": 54.95,
-        "life_traces": 17.28
-      },
-      "origin": "captures/origin/0018.jpg",
-      "audio": "captures/audio/0018.wav",
       "ai_description": "The image is a heavily blurred close-up of cables, assorted electronic devices, and part of a person, with no visible architecture, storefront, or alley fabric. No Shikumen or commercial context can be identified.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 54.95,
+        "life_traces": 17.28
+      },
+      "origin": "captures/origin/0004.jpg",
+      "audio": "captures/audio/0004.wav"
     },
     {
       "time": "2026-10-26T00:04:33",
       "status": "saved_unique_capture",
-      "session_number": "0007",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 105.0,
-      "categories_percent": {
-        "architecture": 75.39,
-        "commerce": 1.66,
-        "life_traces": 3.49
-      },
-      "origin": "captures/origin/0019.jpg",
-      "audio": "captures/audio/0019.wav",
       "ai_description": "An interior view at an angle showing a mirrored wall panel that reflects a modern ceiling with recessed downlights and a framed picture, with a printed paper bag in the foreground and plain gray flooring. No visible Shikumen brickwork, stone gateway, or traditional alley fabric appears in the frame.",
       "urban_selection": {
         "preserved": 0,
         "removed": 1,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 75.39,
+        "commerce": 1.66,
+        "life_traces": 3.49
+      },
+      "origin": "captures/origin/0005.jpg",
+      "audio": "captures/audio/0005.wav"
     },
     {
       "time": "2026-10-26T00:05:28",
       "status": "saved_unique_capture",
-      "session_number": "0008",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 126.66666666666667,
-      "categories_percent": {
-        "architecture": 83.87
-      },
-      "origin": "captures/origin/0020.jpg",
-      "audio": "captures/audio/0020.wav",
       "ai_description": "The image shows a modern interior stairwell with white walls, a metal railing, and ceiling spotlights. In the foreground, a desk or counter is occupied by a bag, tissues, a water bottle, and a phone, with no visible Shikumen fabric.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 83.87
+      },
+      "origin": "captures/origin/0006.jpg",
+      "audio": "captures/audio/0006.wav"
     },
     {
       "time": "2026-10-26T00:05:58",
       "status": "saved_unique_capture",
-      "session_number": "0009",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 135.0,
-      "categories_percent": {
-        "architecture": 96.14
-      },
-      "origin": "captures/origin/0021.jpg",
-      "audio": "captures/audio/0021.wav",
       "ai_description": "The image is heavily blurred and shows no discernible architectural fabric, commercial intervention, or alley context. Visible content appears to be an interior or close-up object rather than Shikumen streetscape evidence.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 96.14
+      },
+      "origin": "captures/origin/0007.jpg",
+      "audio": "captures/audio/0007.wav"
     },
     {
       "time": "2026-10-26T00:06:48",
       "status": "saved_unique_capture",
-      "session_number": "0010",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 124.16666666666667,
-      "categories_percent": {
-        "architecture": 92.94
-      },
-      "origin": "captures/origin/0022.jpg",
-      "audio": "captures/audio/0022.wav",
       "ai_description": "An interior view of a compact commercial or office space with white-painted walls, a modern metal-railed staircase, and a dark ceiling fitted with recessed spotlights and an air-conditioning unit. Everyday items such as a plastic bottle, bags, and shelving clutter sit on a light counter, and no historic masonry or Shikumen detailing is visible in the frame.",
       "urban_selection": {
         "preserved": 1,
         "removed": 2,
         "reconstructed": 1
-      }
+      },
+      "categories_percent": {
+        "architecture": 92.94
+      },
+      "origin": "captures/origin/0008.jpg",
+      "audio": "captures/audio/0008.wav"
     },
     {
       "time": "2026-10-26T00:07:20",
       "status": "saved_unique_capture",
-      "session_number": "0011",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 91.66666666666667,
-      "categories_percent": {
-        "architecture": 61.24,
-        "commerce": 9.92,
-        "life_traces": 13.87
-      },
-      "origin": "captures/origin/0023.jpg",
-      "audio": "captures/audio/0023.wav",
       "ai_description": "An indoor scene showing a wall-mounted digital display screen with bilingual lecture schedule text, a large floor number '3' on the wall, a ceiling with recessed lights, and personal belongings such as bags in the foreground. No historic Shikumen brickwork, stone gateways, or alley fabric is visible in the frame.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 61.24,
+        "commerce": 9.92,
+        "life_traces": 13.87
+      },
+      "origin": "captures/origin/0009.jpg",
+      "audio": "captures/audio/0009.wav"
     },
     {
       "time": "2026-10-26T00:07:42",
       "status": "saved_unique_capture",
-      "session_number": "0012",
       "trigger": "shutter",
       "gps": null,
       "light_lux": 160.83333333333334,
-      "categories_percent": {
-        "architecture": 96.47
-      },
-      "origin": "captures/origin/0024.jpg",
-      "audio": "captures/audio/0024.wav",
       "ai_description": "The photograph is heavily motion-blurred, showing indistinct pale wall surfaces, dark vertical elements, and a bright blue sign or screen, with no clearly identifiable Shikumen architectural details or everyday occupation visible.",
       "urban_selection": {
         "preserved": 0,
         "removed": 0,
         "reconstructed": 0
-      }
+      },
+      "categories_percent": {
+        "architecture": 96.47
+      },
+      "origin": "captures/origin/0010.jpg",
+      "audio": "captures/audio/0010.wav"
     }
-  ],
-  "saved_unique_count": 12,
-  "finished_at": "2026-09-07T11:39:27"
+  ]
 }
