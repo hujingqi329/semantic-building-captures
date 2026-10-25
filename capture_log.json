@@ -298,6 +298,204 @@
         "removed": 2,
         "reconstructed": 0
       }
+    },
+    {
+      "time": "2026-10-26T00:02:38",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 145.0,
+      "categories_percent": {
+        "architecture": 81.92,
+        "commerce": 4.07,
+        "life_traces": 6.03
+      },
+      "origin": "captures/origin/0015.jpg",
+      "audio": "captures/audio/0015.wav",
+      "ai_description": "A foreground green jacket partly obscures a view of an interior with a pale staircase, dark ceiling panel, exposed track lighting, and a small seating or display area beneath the stairs. The visible surfaces are largely plain and modern, with no clear Shikumen brickwork or stone gateway features in frame.",
+      "urban_selection": {
+        "preserved": 1,
+        "removed": 3,
+        "reconstructed": 1
+      }
+    },
+    {
+      "time": "2026-10-26T00:03:13",
+      "status": "saved_unique_capture",
+      "session_number": "0004",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 130.0,
+      "categories_percent": {
+        "architecture": 76.24
+      },
+      "origin": "captures/origin/0016.jpg",
+      "audio": "captures/audio/0016.wav",
+      "ai_description": "An indoor view of a plain white wall and dark floor with a freestanding black digital screen displaying an exhibition open-call poster for an ICI Open Museum event, beside a low white signboard marked with the numeral 3. No Shikumen brickwork, stone gateways, alley fabric, or historic architectural details are visible in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:03:39",
+      "status": "saved_unique_capture",
+      "session_number": "0005",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 141.66666666666669,
+      "categories_percent": {
+        "architecture": 92.97,
+        "commerce": 0.82
+      },
+      "origin": "captures/origin/0017.jpg",
+      "audio": "captures/audio/0017.wav",
+      "ai_description": "An interior view shows dark paneled walls with string lights, shelving, furniture, and scattered objects, with water bottles in the foreground. No historic Shikumen fabric or exterior architectural details are visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:04:10",
+      "status": "saved_unique_capture",
+      "session_number": "0006",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 143.33333333333334,
+      "categories_percent": {
+        "architecture": 54.95,
+        "life_traces": 17.28
+      },
+      "origin": "captures/origin/0018.jpg",
+      "audio": "captures/audio/0018.wav",
+      "ai_description": "The image is a heavily blurred close-up of cables, assorted electronic devices, and part of a person, with no visible architecture, storefront, or alley fabric. No Shikumen or commercial context can be identified.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:04:33",
+      "status": "saved_unique_capture",
+      "session_number": "0007",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 105.0,
+      "categories_percent": {
+        "architecture": 75.39,
+        "commerce": 1.66,
+        "life_traces": 3.49
+      },
+      "origin": "captures/origin/0019.jpg",
+      "audio": "captures/audio/0019.wav",
+      "ai_description": "An interior view at an angle showing a mirrored wall panel that reflects a modern ceiling with recessed downlights and a framed picture, with a printed paper bag in the foreground and plain gray flooring. No visible Shikumen brickwork, stone gateway, or traditional alley fabric appears in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 1,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:05:28",
+      "status": "saved_unique_capture",
+      "session_number": "0008",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 126.66666666666667,
+      "categories_percent": {
+        "architecture": 83.87
+      },
+      "origin": "captures/origin/0020.jpg",
+      "audio": "captures/audio/0020.wav",
+      "ai_description": "The image shows a modern interior stairwell with white walls, a metal railing, and ceiling spotlights. In the foreground, a desk or counter is occupied by a bag, tissues, a water bottle, and a phone, with no visible Shikumen fabric.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:05:58",
+      "status": "saved_unique_capture",
+      "session_number": "0009",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 135.0,
+      "categories_percent": {
+        "architecture": 96.14
+      },
+      "origin": "captures/origin/0021.jpg",
+      "audio": "captures/audio/0021.wav",
+      "ai_description": "The image is heavily blurred and shows no discernible architectural fabric, commercial intervention, or alley context. Visible content appears to be an interior or close-up object rather than Shikumen streetscape evidence.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:06:48",
+      "status": "saved_unique_capture",
+      "session_number": "0010",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 124.16666666666667,
+      "categories_percent": {
+        "architecture": 92.94
+      },
+      "origin": "captures/origin/0022.jpg",
+      "audio": "captures/audio/0022.wav",
+      "ai_description": "An interior view of a compact commercial or office space with white-painted walls, a modern metal-railed staircase, and a dark ceiling fitted with recessed spotlights and an air-conditioning unit. Everyday items such as a plastic bottle, bags, and shelving clutter sit on a light counter, and no historic masonry or Shikumen detailing is visible in the frame.",
+      "urban_selection": {
+        "preserved": 1,
+        "removed": 2,
+        "reconstructed": 1
+      }
+    },
+    {
+      "time": "2026-10-26T00:07:20",
+      "status": "saved_unique_capture",
+      "session_number": "0011",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 91.66666666666667,
+      "categories_percent": {
+        "architecture": 61.24,
+        "commerce": 9.92,
+        "life_traces": 13.87
+      },
+      "origin": "captures/origin/0023.jpg",
+      "audio": "captures/audio/0023.wav",
+      "ai_description": "An indoor scene showing a wall-mounted digital display screen with bilingual lecture schedule text, a large floor number '3' on the wall, a ceiling with recessed lights, and personal belongings such as bags in the foreground. No historic Shikumen brickwork, stone gateways, or alley fabric is visible in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-26T00:07:42",
+      "status": "saved_unique_capture",
+      "session_number": "0012",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 160.83333333333334,
+      "categories_percent": {
+        "architecture": 96.47
+      },
+      "origin": "captures/origin/0024.jpg",
+      "audio": "captures/audio/0024.wav",
+      "ai_description": "The photograph is heavily motion-blurred, showing indistinct pale wall surfaces, dark vertical elements, and a bright blue sign or screen, with no clearly identifiable Shikumen architectural details or everyday occupation visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
     }
   ],
   "saved_unique_count": 12,
