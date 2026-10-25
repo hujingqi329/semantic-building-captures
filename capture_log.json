@@ -257,6 +257,47 @@
       },
       "preview": "outputs/rehearsal1/preview/0012_preview.jpg",
       "audio": "outputs/rehearsal1/audio/0012.wav"
+    },
+    {
+      "time": "2026-10-25T23:50:51",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 135.83333333333334,
+      "categories_percent": {
+        "architecture": 63.41,
+        "commerce": 1.1,
+        "life_traces": 29.65
+      },
+      "origin": "captures/origin/0013.jpg",
+      "audio": "captures/audio/0013.wav",
+      "ai_description": "A person in a maroon jacket is seen in a modern interior with glass panels and metal framing; no Shikumen architectural fabric or commercial interventions are visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-10-25T23:51:11",
+      "status": "saved_unique_capture",
+      "session_number": "0002",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 142.5,
+      "categories_percent": {
+        "architecture": 71.15,
+        "commerce": 1.8
+      },
+      "origin": "captures/origin/0014.jpg",
+      "audio": "captures/audio/0014.wav",
+      "ai_description": "An indoor exhibition hall shows a tall vertical digital screen labeled \"EXHIBITION\"/\"QIDONG MUSEUM\" mounted above a white directory board with a large \"3\", within plain modern white walls and dark ceilings. No Shikumen brickwork, stone gateways, or alley fabric is visible in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 2,
+        "reconstructed": 0
+      }
     }
   ],
   "saved_unique_count": 12,
