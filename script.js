@@ -111,6 +111,17 @@ document.querySelector(".place-nav")?.addEventListener("click", (event) => {
   if (!(currentImageSet in imageSets)) currentImageSet = "architecture";
   showImageSet(currentImageSet);
 
+  // Card footers are static HTML - keep their location text in sync with
+  // the selected place instead of showing a hard-coded "Xintiandi, Lane123".
+  const placeLocations = {
+    xintiandi: "Xintiandi, Lane123",
+    tianzifang: "Tianzifang, Lane210",
+    bugaoli: "Bugao Li, Shanghai",
+  };
+  document.querySelectorAll(".card-location").forEach((el) => {
+    el.textContent = placeLocations[currentPlace] || currentPlace;
+  });
+
   document.querySelector(".place-description").textContent =
     placeDescriptions[button.dataset.place];
 });
