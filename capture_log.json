@@ -189,6 +189,183 @@
       },
       "origin": "captures/origin/0010.jpg",
       "audio": "captures/audio/0010.wav"
+    },
+    {
+      "time": "2026-11-25T14:10:52",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 3785.8333333333335,
+      "categories_percent": {
+        "architecture": 80.68,
+        "commerce": 1.49,
+        "life_traces": 4.59
+      },
+      "origin": "captures/origin/0011.jpg",
+      "audio": "captures/audio/0011.wav",
+      "ai_description": "A narrow alley-facing brick facade with a large framed display window, hanging sign, and festive snowflake decorations; a tall planter occupies the paved passage. Historic brickwork and opening proportions remain visible, while commercial fixtures and renewed trim dominate the street level.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 4,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-25T14:11:31",
+      "status": "saved_unique_capture",
+      "session_number": "0002",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 3555.0,
+      "categories_percent": {
+        "architecture": 75.84,
+        "life_traces": 5.37
+      },
+      "origin": "captures/origin/0012.jpg",
+      "audio": "captures/audio/0012.wav",
+      "ai_description": "A narrow paved alley is lined by a brick facade with a stone-framed shop window, hanging signs, decorative blue-and-white ornaments, and tall planters. Commercial signage and renewed paving are visible along the alley edge.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 2,
+        "reconstructed": 5
+      }
+    },
+    {
+      "time": "2026-11-25T14:18:41",
+      "status": "saved_unique_capture",
+      "session_number": "0003",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 1710.8333333333335,
+      "categories_percent": {
+        "architecture": 54.8,
+        "commerce": 1.35,
+        "life_traces": 5.42
+      },
+      "origin": "captures/origin/0013.jpg",
+      "audio": "captures/audio/0013.wav",
+      "ai_description": "A narrow Shikumen-style alley is lined with tall brick facades and traditional roofline details, with a modern projecting shop sign and paved ground surface inserted at street level. Two pedestrians walk toward the camera while others move farther down the lane.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 3,
+        "reconstructed": 4
+      }
+    },
+    {
+      "time": "2026-11-25T14:19:39",
+      "status": "saved_unique_capture",
+      "session_number": "0004",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 1725.0,
+      "categories_percent": {
+        "architecture": 71.46,
+        "life_traces": 13.36
+      },
+      "origin": "captures/origin/0014.jpg",
+      "audio": "captures/audio/0014.wav"
+    },
+    {
+      "time": "2026-11-25T14:21:22",
+      "status": "saved_unique_capture",
+      "session_number": "0005",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 4099.166666666667,
+      "categories_percent": {
+        "architecture": 99.15
+      },
+      "origin": "captures/origin/0015.jpg",
+      "audio": "captures/audio/0015.wav",
+      "ai_description": "Close-up of a weathered masonry facade with a dark glazed window, a projecting stone sill, and vertical grooves below; no commercial signage or occupants are visible.",
+      "urban_selection": {
+        "preserved": 3,
+        "removed": 0,
+        "reconstructed": 1
+      }
+    },
+    {
+      "time": "2026-11-25T14:22:22",
+      "status": "saved_unique_capture",
+      "session_number": "0006",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 2767.5,
+      "categories_percent": {
+        "architecture": 82.36
+      },
+      "origin": "captures/origin/0016.jpg",
+      "audio": "captures/audio/0016.wav",
+      "ai_description": "A narrow brick-lined alley with traditional Shikumen-style facades, dark rectangular openings, and stone lintels is occupied by a seated person using a phone, planters, and pedestrians. Modern signage, awnings, blue accent lighting, and a distant high-rise contrast with the historic brick fabric.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 3,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-25T14:22:55",
+      "status": "saved_unique_capture",
+      "session_number": "0007",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 3429.166666666667,
+      "categories_percent": {
+        "architecture": 49.3,
+        "life_traces": 5.8
+      },
+      "origin": "captures/origin/0017.jpg",
+      "audio": "captures/audio/0017.wav"
+    },
+    {
+      "time": "2026-11-25T14:23:52",
+      "status": "saved_unique_capture",
+      "session_number": "0008",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 3641.666666666667,
+      "categories_percent": {
+        "architecture": 90.04,
+        "life_traces": 1.62
+      },
+      "origin": "captures/origin/0018.jpg",
+      "audio": "captures/audio/0018.wav",
+      "ai_description": "A narrow Shikumen-style alley lined with gray brick facades, black shutters, and traditional openings, with modern shop signage and paving inserted at street level. A person stands by an exposed red brick corner while another walks down the lane.",
+      "urban_selection": {
+        "preserved": 8,
+        "removed": 3,
+        "reconstructed": 4
+      }
+    },
+    {
+      "time": "2026-11-25T14:26:41",
+      "status": "saved_unique_capture",
+      "session_number": "0009",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 3309.166666666667,
+      "categories_percent": {
+        "architecture": 66.77,
+        "life_traces": 1.27
+      },
+      "origin": "captures/origin/0019.jpg",
+      "audio": "captures/audio/0019.wav"
+    },
+    {
+      "time": "2026-11-25T14:35:40",
+      "status": "saved_unique_capture",
+      "session_number": "0010",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 2679.166666666667,
+      "categories_percent": {
+        "architecture": 83.64,
+        "commerce": 2.18,
+        "life_traces": 2.47
+      },
+      "origin": "captures/origin/0020.jpg",
+      "audio": "captures/audio/0020.wav"
     }
   ]
 }
