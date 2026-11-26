@@ -1,0 +1,47 @@
+{
+  "model": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "host": "raspberrypi5",
+  "events": [
+    {
+      "time": "2026-11-27T02:10:39",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 143.33333333333334,
+      "categories_percent": {
+        "architecture": 56.13,
+        "commerce": 43.7
+      },
+      "origin": "captures/origin/0001.jpg",
+      "audio": "captures/audio/0001.wav",
+      "ai_description": "The image shows a computer monitor displaying a dark software interface above vertical blinds or wall panels; no Shikumen architecture, commercial interventions, or street-level occupation is visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T02:11:31",
+      "status": "saved_unique_capture",
+      "session_number": "0002",
+      "trigger": "shutter",
+      "gps": null,
+      "light_lux": 153.33333333333334,
+      "categories_percent": {
+        "architecture": 75.6,
+        "commerce": 18.95,
+        "life_traces": 5.07
+      },
+      "origin": "captures/origin/0002.jpg",
+      "audio": "captures/audio/0002.wav",
+      "ai_description": "The image shows a close-up of a laptop screen against vertically ribbed wall panels, with no visible Shikumen facade, alley, or traditional architectural detail. The scene suggests everyday indoor laptop use rather than an urban heritage streetscape.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    }
+  ]
+}
