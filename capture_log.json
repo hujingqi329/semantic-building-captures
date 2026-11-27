@@ -516,6 +516,238 @@
         "removed": 4,
         "reconstructed": 2
       }
+    },
+    {
+      "time": "2026-11-27T14:13:30",
+      "status": "saved_unique_capture",
+      "session_number": "0021",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221333,
+        "lon": 121.470006,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3903.3333333333335,
+      "categories_percent": {
+        "architecture": 65.76,
+        "commerce": 5.76,
+        "life_traces": 15.38
+      },
+      "origin": "captures/origin/0023.jpg",
+      "audio": "captures/audio/0023.wav",
+      "ai_description": "A narrow alley framed by brick facades and traditional-scale openings on the left, with dense food-stall signage, awnings, a vending machine, benches, and pedestrians occupying the lane. Commercial shopfronts and modern street furniture visibly overlay the historic alley fabric.",
+      "urban_selection": {
+        "preserved": 5,
+        "removed": 3,
+        "reconstructed": 4
+      }
+    },
+    {
+      "time": "2026-11-27T14:13:53",
+      "status": "saved_unique_capture",
+      "session_number": "0022",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221889,
+        "lon": 121.470944,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2665.0,
+      "categories_percent": {
+        "architecture": 67.34,
+        "life_traces": 17.13
+      },
+      "origin": "captures/origin/0024.jpg",
+      "audio": "captures/audio/0024.wav"
+    },
+    {
+      "time": "2026-11-27T14:14:23",
+      "status": "saved_unique_capture",
+      "session_number": "0023",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221569,
+        "lon": 121.470763,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2887.5,
+      "categories_percent": {
+        "architecture": 72.77,
+        "life_traces": 9.93
+      },
+      "origin": "captures/origin/0025.jpg",
+      "audio": "captures/audio/0025.wav"
+    },
+    {
+      "time": "2026-11-27T14:14:52",
+      "status": "saved_unique_capture",
+      "session_number": "0024",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221904,
+        "lon": 121.470528,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3864.166666666667,
+      "categories_percent": {
+        "architecture": 71.96,
+        "commerce": 0.71,
+        "life_traces": 1.04
+      },
+      "origin": "captures/origin/0026.jpg",
+      "audio": "captures/audio/0026.wav",
+      "ai_description": "A narrow Shikumen-style lane is lined by red brick facades with a blue address plaque, exposed pipes, cables, and air-conditioning units. Parked scooters, signage, and pedestrians fill the alley, indicating everyday residential and commercial use.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 2,
+        "reconstructed": 1
+      }
+    },
+    {
+      "time": "2026-11-27T14:15:23",
+      "status": "saved_unique_capture",
+      "session_number": "0025",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221293,
+        "lon": 121.470969,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2816.666666666667,
+      "categories_percent": {
+        "architecture": 75.81,
+        "commerce": 2.09,
+        "life_traces": 10.97
+      },
+      "origin": "captures/origin/0027.jpg",
+      "audio": "captures/audio/0027.wav"
+    },
+    {
+      "time": "2026-11-27T14:16:05",
+      "status": "saved_unique_capture",
+      "session_number": "0026",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.22194,
+        "lon": 121.46975,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3046.666666666667,
+      "categories_percent": {
+        "architecture": 62.37,
+        "life_traces": 20.95
+      },
+      "origin": "captures/origin/0028.jpg",
+      "audio": "captures/audio/0028.wav",
+      "ai_description": "A narrow stone-paved alley lined with brick buildings and dense shopfronts; pedestrians walk beneath red lanterns and modern signage, while large artificial flowers and display windows occupy the right foreground.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 4,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-27T14:16:29",
+      "status": "saved_unique_capture",
+      "session_number": "0027",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.2216,
+        "lon": 121.470202,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2829.166666666667,
+      "categories_percent": {
+        "architecture": 73.08,
+        "commerce": 0.65,
+        "life_traces": 21.27
+      },
+      "origin": "captures/origin/0029.jpg",
+      "audio": "captures/audio/0029.wav",
+      "ai_description": "A narrow brick-lined alley with traditional-looking facades, red lanterns overhead, and small clothing shops displaying mannequins and racks outside. Several pedestrians walk through the lane, while modern signage and overhead cables add commercial and infrastructural layers.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 4,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T14:17:18",
+      "status": "saved_unique_capture",
+      "session_number": "0028",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221364,
+        "lon": 121.470187,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1464.1666666666667,
+      "categories_percent": {
+        "architecture": 53.56,
+        "commerce": 1.73,
+        "life_traces": 19.99
+      },
+      "origin": "captures/origin/0030.jpg",
+      "audio": "captures/audio/0030.wav",
+      "ai_description": "A narrow brick-walled alley converted into a busy commercial lane, with dense shopfronts, signage, lanterns, and merchandise displays lining both sides. Pedestrians walk along a stone-paved path beneath multi-storey historic-looking brick facades and overhead cables.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 4,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-27T14:17:48",
+      "status": "saved_unique_capture",
+      "session_number": "0029",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.22211,
+        "lon": 121.47097,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1496.6666666666667,
+      "categories_percent": {
+        "architecture": 96.08,
+        "life_traces": 2.25
+      },
+      "origin": "captures/origin/0031.jpg",
+      "audio": "captures/audio/0031.wav",
+      "ai_description": "A narrow Shikumen alley is framed by weathered brick facades, with a central building showing a modern wood-framed window. Overhead cables, flower garlands, shop signs, and pedestrians indicate dense commercial and everyday occupation.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 4,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-27T14:18:09",
+      "status": "saved_unique_capture",
+      "session_number": "0030",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222007,
+        "lon": 121.470077,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 236.66666666666669,
+      "categories_percent": {
+        "architecture": 66.71,
+        "commerce": 9.22,
+        "life_traces": 12.4
+      },
+      "origin": "captures/origin/0032.jpg",
+      "audio": "captures/audio/0032.wav"
     }
   ]
 }
