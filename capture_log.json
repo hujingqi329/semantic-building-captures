@@ -280,6 +280,242 @@
         "removed": 2,
         "reconstructed": 2
       }
+    },
+    {
+      "time": "2026-11-27T14:08:18",
+      "status": "saved_unique_capture",
+      "session_number": "0011",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221235,
+        "lon": 121.469943,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2666.666666666667,
+      "categories_percent": {
+        "architecture": 38.42,
+        "life_traces": 25.74
+      },
+      "origin": "captures/origin/0013.jpg",
+      "audio": "captures/audio/0013.wav",
+      "ai_description": "A blurry narrow alley view shows plain concrete or plastered walls, a boxed utility-like structure, and scooters parked close together, with a person and covered objects in the background. Visible surfaces and insertions are utilitarian and modern, with no clear historic Shikumen details legible in the frame.",
+      "urban_selection": {
+        "preserved": 1,
+        "removed": 1,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T14:08:49",
+      "status": "saved_unique_capture",
+      "session_number": "0012",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221899,
+        "lon": 121.470333,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 103.33333333333334,
+      "categories_percent": {
+        "architecture": 74.15,
+        "commerce": 1.45,
+        "life_traces": 14.81
+      },
+      "origin": "captures/origin/0014.jpg",
+      "audio": "captures/audio/0014.wav",
+      "ai_description": "A narrow brick-walled alley is densely occupied by pedestrians and lined with small shops, souvenir racks, signage, plants, and overhead cables. Historic masonry and alley scale remain visible, but commercial storefront alterations and clutter dominate the lower levels.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 3,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T14:09:10",
+      "status": "saved_unique_capture",
+      "session_number": "0013",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222402,
+        "lon": 121.470762,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 276.6666666666667,
+      "categories_percent": {
+        "architecture": 87.75,
+        "commerce": 3.17,
+        "life_traces": 2.94
+      },
+      "origin": "captures/origin/0015.jpg",
+      "audio": "captures/audio/0015.wav"
+    },
+    {
+      "time": "2026-11-27T14:10:01",
+      "status": "saved_unique_capture",
+      "session_number": "0014",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221401,
+        "lon": 121.470856,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3437.5,
+      "categories_percent": {
+        "architecture": 41.24,
+        "commerce": 8.36,
+        "life_traces": 25.66
+      },
+      "origin": "captures/origin/0016.jpg",
+      "audio": "captures/audio/0016.wav"
+    },
+    {
+      "time": "2026-11-27T14:10:34",
+      "status": "saved_unique_capture",
+      "session_number": "0015",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221342,
+        "lon": 121.4704,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 430.0,
+      "categories_percent": {
+        "architecture": 81.08,
+        "life_traces": 11.93
+      },
+      "origin": "captures/origin/0017.jpg",
+      "audio": "captures/audio/0017.wav"
+    },
+    {
+      "time": "2026-11-27T14:11:17",
+      "status": "saved_unique_capture",
+      "session_number": "0016",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221529,
+        "lon": 121.469993,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 4164.166666666667,
+      "categories_percent": {
+        "architecture": 46.06,
+        "life_traces": 29.14
+      },
+      "origin": "captures/origin/0018.jpg",
+      "audio": "captures/audio/0018.wav",
+      "ai_description": "A blurry pedestrian alley scene shows people walking past small shops, with colorful commercial facades and signage set against partially visible masonry and stone paving. Everyday occupation and retail displays dominate the view, while historic Shikumen details are difficult to confirm.",
+      "urban_selection": {
+        "preserved": 2,
+        "removed": 3,
+        "reconstructed": 1
+      }
+    },
+    {
+      "time": "2026-11-27T14:11:39",
+      "status": "saved_unique_capture",
+      "session_number": "0017",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221635,
+        "lon": 121.470825,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3188.3333333333335,
+      "categories_percent": {
+        "architecture": 54.02,
+        "life_traces": 18.99
+      },
+      "origin": "captures/origin/0019.jpg",
+      "audio": "captures/audio/0019.wav",
+      "ai_description": "A narrow alley is lined with dense overhead greenery, red lanterns, and small shops displaying clothing and souvenirs; historic brick facades and traditional alley scale remain partly visible behind the commercial frontages. People walk through the lane, which is heavily adapted for pedestrian shopping.",
+      "urban_selection": {
+        "preserved": 6,
+        "removed": 5,
+        "reconstructed": 4
+      }
+    },
+    {
+      "time": "2026-11-27T14:12:06",
+      "status": "saved_unique_capture",
+      "session_number": "0018",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221744,
+        "lon": 121.470734,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2389.166666666667,
+      "categories_percent": {
+        "architecture": 84.99,
+        "commerce": 10.76
+      },
+      "origin": "captures/origin/0020.jpg",
+      "audio": "captures/audio/0020.wav",
+      "ai_description": "A narrow alley framed by old brick facades, balconies, and overhead wires, with red lanterns, hanging laundry, and a red storefront awning marking everyday occupation and commercial adaptation.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 3,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T14:12:29",
+      "status": "saved_unique_capture",
+      "session_number": "0019",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221368,
+        "lon": 121.469931,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3407.5,
+      "categories_percent": {
+        "architecture": 76.78,
+        "life_traces": 11.12
+      },
+      "origin": "captures/origin/0021.jpg",
+      "audio": "captures/audio/0021.wav",
+      "ai_description": "The image is heavily out of focus, showing indistinct dark foreground objects and a small area of paving; no architectural fabric, commercial interventions, or everyday occupation are clearly discernible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T14:12:55",
+      "status": "saved_unique_capture",
+      "session_number": "0020",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222132,
+        "lon": 121.469777,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2442.5,
+      "categories_percent": {
+        "architecture": 68.44,
+        "commerce": 2.22,
+        "life_traces": 28.11
+      },
+      "origin": "captures/origin/0022.jpg",
+      "audio": "captures/audio/0022.wav",
+      "ai_description": "A narrow lane is lined with dense shopfronts, awnings, signage, flower displays, and overhead structures, with pedestrians walking through. Visible brick upper walls and alley scale suggest historic fabric, while commercial storefronts and fixtures heavily occupy the street level.",
+      "urban_selection": {
+        "preserved": 5,
+        "removed": 4,
+        "reconstructed": 2
+      }
     }
   ]
 }
