@@ -748,6 +748,229 @@
       },
       "origin": "captures/origin/0032.jpg",
       "audio": "captures/audio/0032.wav"
+    },
+    {
+      "time": "2026-11-27T15:01:50",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221758,
+        "lon": 121.469635,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1009.1666666666667,
+      "categories_percent": {
+        "architecture": 51.55,
+        "commerce": 0.6,
+        "life_traces": 14.13
+      },
+      "origin": "captures/origin/0033.jpg",
+      "audio": "captures/audio/0033.wav"
+    },
+    {
+      "time": "2026-11-27T15:37:17",
+      "status": "saved_unique_capture",
+      "session_number": "0002",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222186,
+        "lon": 121.471069,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 321.6666666666667,
+      "categories_percent": {
+        "architecture": 89.11,
+        "life_traces": 7.94
+      },
+      "origin": "captures/origin/0034.jpg",
+      "audio": "captures/audio/0034.wav"
+    },
+    {
+      "time": "2026-11-27T15:37:55",
+      "status": "saved_unique_capture",
+      "session_number": "0003",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221841,
+        "lon": 121.470636,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1528.3333333333335,
+      "categories_percent": {
+        "architecture": 84.17,
+        "life_traces": 4.72
+      },
+      "origin": "captures/origin/0035.jpg",
+      "audio": "captures/audio/0035.wav",
+      "ai_description": "A narrow brick-paved alley lined with dark brick facades, stone bases, and traditional-style openings, with modern shop signs and lighting added. Several people occupy the lane, including a photographer in the foreground and others sitting or walking farther down.",
+      "urban_selection": {
+        "preserved": 8,
+        "removed": 3,
+        "reconstructed": 4
+      }
+    },
+    {
+      "time": "2026-11-27T15:38:15",
+      "status": "saved_unique_capture",
+      "session_number": "0004",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221483,
+        "lon": 121.470894,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 581.6666666666667,
+      "categories_percent": {
+        "architecture": 94.16,
+        "life_traces": 1.68
+      },
+      "origin": "captures/origin/0036.jpg",
+      "audio": "captures/audio/0036.wav",
+      "ai_description": "A narrow brick alley with arched openings, traditional upper windows, and commercial signs, storefront glazing, banners, and lights inserted along both sides. A person walks toward a van visible at the alley end, indicating everyday use and through-access.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 2,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T15:38:36",
+      "status": "saved_unique_capture",
+      "session_number": "0005",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221449,
+        "lon": 121.469561,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1760.8333333333335,
+      "categories_percent": {
+        "architecture": 87.42,
+        "commerce": 0.77,
+        "life_traces": 8.37
+      },
+      "origin": "captures/origin/0037.jpg",
+      "audio": "captures/audio/0037.wav",
+      "ai_description": "A narrow brick-faced alley with tall facades, dark window and door openings, and a cluster of hanging commercial signs. Several pedestrians occupy the lane, suggesting active everyday use and small-scale retail or bar activity.",
+      "urban_selection": {
+        "preserved": 7,
+        "removed": 3,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T15:39:07",
+      "status": "saved_unique_capture",
+      "session_number": "0006",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222313,
+        "lon": 121.470775,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 2140.0,
+      "categories_percent": {
+        "architecture": 35.63,
+        "life_traces": 27.22
+      },
+      "origin": "captures/origin/0038.jpg",
+      "audio": "captures/audio/0038.wav"
+    },
+    {
+      "time": "2026-11-27T15:39:37",
+      "status": "saved_unique_capture",
+      "session_number": "0007",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221376,
+        "lon": 121.470658,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 395.0,
+      "categories_percent": {
+        "architecture": 84.1,
+        "commerce": 4.03,
+        "life_traces": 5.46
+      },
+      "origin": "captures/origin/0039.jpg",
+      "audio": "captures/audio/0039.wav"
+    },
+    {
+      "time": "2026-11-27T15:40:20",
+      "status": "saved_unique_capture",
+      "session_number": "0008",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221802,
+        "lon": 121.470641,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1107.5,
+      "categories_percent": {
+        "architecture": 89.13,
+        "life_traces": 6.7
+      },
+      "origin": "captures/origin/0040.jpg",
+      "audio": "captures/audio/0040.wav"
+    },
+    {
+      "time": "2026-11-27T15:44:56",
+      "status": "saved_unique_capture",
+      "session_number": "0009",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221604,
+        "lon": 121.470553,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 40.833333333333336,
+      "categories_percent": {
+        "architecture": 63.58
+      },
+      "origin": "captures/origin/0041.jpg",
+      "audio": "captures/audio/0041.wav",
+      "ai_description": "The image is heavily out of focus and shows only a dark, textured surface with a bright light flare; no architecture, commercial storefront, or everyday occupation is legible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T15:50:50",
+      "status": "saved_unique_capture",
+      "session_number": "0010",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221516,
+        "lon": 121.469759,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 51.66666666666667,
+      "categories_percent": {
+        "architecture": 57.66,
+        "commerce": 7.4,
+        "life_traces": 34.78
+      },
+      "origin": "captures/origin/0042.jpg",
+      "audio": "captures/audio/0042.wav",
+      "ai_description": "Interior view of a modern Shake Shack seating area with teal booth upholstery, a vertical wood-slat wall, and a promotional menu sign. No Shikumen architectural fabric is visible in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
     }
   ]
 }
