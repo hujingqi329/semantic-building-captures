@@ -42,6 +42,244 @@
         "removed": 0,
         "reconstructed": 0
       }
+    },
+    {
+      "time": "2026-11-27T13:54:03",
+      "status": "saved_unique_capture",
+      "session_number": "0001",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221785,
+        "lon": 121.470875,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 231.66666666666669,
+      "categories_percent": {
+        "architecture": 3.0,
+        "commerce": 55.7,
+        "life_traces": 40.34
+      },
+      "origin": "captures/origin/0003.jpg",
+      "audio": "captures/audio/0003.wav",
+      "ai_description": "The image shows a close-up of a laptop screen displaying Chinese text, with a blurred person at left and an orange background wall; no Shikumen architecture, historic fabric, commercial intervention, or alley context is visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T13:54:15",
+      "status": "saved_unique_capture",
+      "session_number": "0002",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221942,
+        "lon": 121.470924,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 142.5,
+      "categories_percent": {
+        "architecture": 51.62,
+        "commerce": 41.55,
+        "life_traces": 1.54
+      },
+      "origin": "captures/origin/0004.jpg",
+      "audio": "captures/audio/0004.wav"
+    },
+    {
+      "time": "2026-11-27T13:56:20",
+      "status": "saved_unique_capture",
+      "session_number": "0003",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221258,
+        "lon": 121.470389,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 149.16666666666669,
+      "categories_percent": {
+        "architecture": 51.07,
+        "life_traces": 14.29
+      },
+      "origin": "captures/origin/0005.jpg",
+      "audio": "captures/audio/0005.wav",
+      "ai_description": "A close-up pavement scene shows stacked plywood sheets with red Chinese text, fruit baskets, a refrigerated drinks cabinet, and a shopper carrying a red bag. No clear Shikumen architectural fabric is visible in the frame.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T14:02:31",
+      "status": "saved_unique_capture",
+      "session_number": "0004",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222389,
+        "lon": 121.470344,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 162.5,
+      "categories_percent": {
+        "architecture": 87.26
+      },
+      "origin": "captures/origin/0006.jpg",
+      "audio": "captures/audio/0006.wav",
+      "ai_description": "A blurred close-up shows a cream-colored wall with faint reddish-orange rectangular patterning meeting a blue-gray lower surface, with a dark vertical edge at right. No distinct Shikumen facade, gateway, commercial intervention, or clear everyday occupation is visible.",
+      "urban_selection": {
+        "preserved": 0,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T14:04:17",
+      "status": "saved_unique_capture",
+      "session_number": "0005",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.222143,
+        "lon": 121.4698,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 195.0,
+      "categories_percent": {
+        "architecture": 41.08,
+        "life_traces": 14.98
+      },
+      "origin": "captures/origin/0007.jpg",
+      "audio": "captures/audio/0007.wav",
+      "ai_description": "A close-up view shows grey stone-block paving, a wooden stool in the foreground, and a yellow barrier or sign at the top edge, with no Shikumen facade visible. The scene suggests everyday occupation but provides little architectural context.",
+      "urban_selection": {
+        "preserved": 2,
+        "removed": 0,
+        "reconstructed": 0
+      }
+    },
+    {
+      "time": "2026-11-27T14:05:41",
+      "status": "saved_unique_capture",
+      "session_number": "0006",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221937,
+        "lon": 121.469637,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 3518.3333333333335,
+      "categories_percent": {
+        "architecture": 68.1,
+        "commerce": 2.17,
+        "life_traces": 27.74
+      },
+      "origin": "captures/origin/0008.jpg",
+      "audio": "captures/audio/0008.wav",
+      "ai_description": "A narrow covered lane is lined with dense shop signage, display goods, and hanging decorations, with people walking beneath a dark overhead structure. A brick facade and traditional-style openings remain partly visible behind the commercial storefronts.",
+      "urban_selection": {
+        "preserved": 4,
+        "removed": 3,
+        "reconstructed": 2
+      }
+    },
+    {
+      "time": "2026-11-27T14:06:01",
+      "status": "saved_unique_capture",
+      "session_number": "0007",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221954,
+        "lon": 121.469569,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1285.8333333333335,
+      "categories_percent": {
+        "architecture": 84.2,
+        "commerce": 1.35,
+        "life_traces": 7.12
+      },
+      "origin": "captures/origin/0009.jpg",
+      "audio": "captures/audio/0009.wav",
+      "ai_description": "A narrow lane is lined with shop displays of clothing and bags on the left and bright red-painted walls with a large glazed storefront on the right. Pedestrians walk along the concrete passage beneath overhead lighting and hanging signage, indicating active everyday commercial use.",
+      "urban_selection": {
+        "preserved": 3,
+        "removed": 4,
+        "reconstructed": 3
+      }
+    },
+    {
+      "time": "2026-11-27T14:06:31",
+      "status": "saved_unique_capture",
+      "session_number": "0008",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221444,
+        "lon": 121.470559,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 292.5,
+      "categories_percent": {
+        "architecture": 78.5,
+        "commerce": 4.05,
+        "life_traces": 6.49
+      },
+      "origin": "captures/origin/0010.jpg",
+      "audio": "captures/audio/0010.wav"
+    },
+    {
+      "time": "2026-11-27T14:07:13",
+      "status": "saved_unique_capture",
+      "session_number": "0009",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221966,
+        "lon": 121.470072,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 1698.3333333333335,
+      "categories_percent": {
+        "architecture": 68.88,
+        "commerce": 2.54,
+        "life_traces": 23.08
+      },
+      "origin": "captures/origin/0011.jpg",
+      "audio": "captures/audio/0011.wav"
+    },
+    {
+      "time": "2026-11-27T14:07:43",
+      "status": "saved_unique_capture",
+      "session_number": "0010",
+      "trigger": "shutter",
+      "gps": {
+        "lat": 31.221501,
+        "lon": 121.470036,
+        "source": "simulated",
+        "site": "xintiandi"
+      },
+      "light_lux": 422.5,
+      "categories_percent": {
+        "architecture": 55.58,
+        "commerce": 1.19,
+        "life_traces": 32.78
+      },
+      "origin": "captures/origin/0012.jpg",
+      "audio": "captures/audio/0012.wav",
+      "ai_description": "A narrow lane crowded with pedestrians and lined with stalls selling bags, toys, and snacks, with red lanterns, hanging ornaments, and illuminated shop signs above brick paving. Historic alley scale and glimpses of tiled eaves remain legible, but the facades are heavily overlaid by commercial displays and signage.",
+      "urban_selection": {
+        "preserved": 4,
+        "removed": 2,
+        "reconstructed": 2
+      }
     }
   ]
 }
